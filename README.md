@@ -23,6 +23,11 @@ In your terminal, execute: ` docker build -t <app_name>` to build your image.
 Then to run, execute: ` docker run -p 5000:5000 <app_name>`. 
 
 ![docker-run](https://user-images.githubusercontent.com/43483228/96031283-2742bd80-0e2b-11eb-93e8-38854af12ef2.JPG)
+#
+run: `docker image ls` to see all your images.
+
+In the screenshot below the first image was created using regular docker commands, and the second image was created using docker-compose
+![docker-images](https://user-images.githubusercontent.com/43483228/96034210-2e6bca80-0e2f-11eb-9645-8a120909ab79.JPG)
 
 #
 run: `docker ps -a` to see all your containers.
